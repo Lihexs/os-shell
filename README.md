@@ -53,15 +53,4 @@ This project implements a custom shell as part of an Operating Systems course as
 - Signal handling is set up using `sigaction()` to ignore SIGINT in the parent shell process.
 - Child processes are reaped using `waitpid()` with the `WNOHANG` option to prevent zombie processes.
 
-## Limitations
 
-- Only single piping is supported (one `|` per command).
-- Background execution, piping, and I/O redirection are mutually exclusive and cannot be combined in a single command.
-
-
-
-This project is an academic assignment designed to demonstrate understanding of process management, inter-process communication, and system calls in a Unix-like environment. It is not intended for production use.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
