@@ -1,6 +1,6 @@
 # OS Shell Project
 
-This project implements a custom shell as part of an Operating Systems course assignment. The shell provides basic command execution capabilities along with several advanced features commonly found in shell environments.
+This project implements a custom shell. The shell provides basic command execution capabilities along with several advanced features commonly found in shell environments.
 
 ## Features
 
